@@ -1,0 +1,21 @@
+.funcionario-box{
+  width: 100%;
+  gap: 15px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: left;
+  margin: 0px;
+}
+
+.funcionario-box button{
+  padding: 25px 0px;
+}
+
+.mat-mdc-button-base{
+  margin: 8px;
+}
+
+.button-cadaastro{
+  margin:0px;
+}

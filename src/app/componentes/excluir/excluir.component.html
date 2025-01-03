@@ -1,0 +1,17 @@
+<mat-card>
+  <div *ngIf="funcionario">
+    <h1>Deseja realmente excluir o Registro?</h1>
+    <div class="text-box">
+      <h2 style="font-style: bold;">Funcionario:</h2>
+      <p>{{funcionario.nome}}</p>
+
+      <h2 style="font-style: bold;">Departamento:</h2>
+      <p>{{funcionario.departamento}}</p>
+    </div>
+
+    <div>
+      <button mat-raised-button color="warn" (click)="DeleteFuncionario()" class="button-excluir">Confirmar Exclusão</button>
+      <button mat-raised-button (click)="Voltar()" style="margin: 0px;">Voltar</button>
+    </div>
+  </div>
+</mat-card>
